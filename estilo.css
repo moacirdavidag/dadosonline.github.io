@@ -47,7 +47,7 @@ body {
     margin-left: 20px;
     width: 100px;
     height: 100px;
-    background-image: url('/images/face1.png');
+    background-image: url('face1.png');
     background-size: cover;
     cursor: pointer;
     transition: background-image 0.5s ease-in;
