@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+a, a:visited {
+    color: #ff4500;
+}
+
+a:hover {
+    color: #e0430a;
+    font-weight: bold;
+}
+
+body {
+    background: #f5f5f5;
+    color: #303030;
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+
+.container {
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container > p {
+    margin-bottom: 20px;
+}
+
+#secaoDados {
+    width: 100vw;
+    height: auto;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: wrap;
+}
+
+.dado {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    background-image: url('/images/face1.png');
+    background-size: cover;
+    cursor: pointer;
+    transition: background-image 0.5s ease-in;
+}
+
+#qtdeDados {
+    padding: 5px;
+    background: #ff4500;
+    color: #ffffff;
+    border: none;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 720px) {
+    body {
+        font-size: 1em;
+    }
+
+    .container {
+        padding-top: 50px;
+    }
+
+    .dado {
+        width: 80px;
+        height: 80px;
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+}
